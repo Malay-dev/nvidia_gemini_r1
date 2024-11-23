@@ -5,7 +5,7 @@ from geometry_msgs.msg import Twist
 import google.generativeai as genai
 import re
 import ast
-from langchain_core.prompts import PromptTemplate  # Updated import
+from langchain_core.prompts import PromptTemplate
 
 import speech_recognition as sr
 import pyttsx3 
