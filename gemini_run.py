@@ -71,7 +71,7 @@ def main():
     Instructions to process: {motion_instruction}
 
     Important rules:
-    1. Default velocity is 1 unit unless specified.
+    1. Default velocity is 10 unit unless specified.
     2. Calculate vx as cos(angle) in decimal and vy as sin(angle) in decimal.
     3. vx and vy represent movement along the x-axis and y-axis, respectively.
     4. Angular velocity in z (ωz): rotation around the z-axis. Convert angles from degrees to radians.
