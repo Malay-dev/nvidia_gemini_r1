@@ -34,6 +34,8 @@ RUN /bin/bash -c "source /opt/ros/noetic/setup.bash && \
 
 RUN python3.8 -m pip install -r /root/requirements.txt
 
+RUN python3.9 -m pip install -r /root/requirements.txt
+
 RUN echo "source /root/catkin_ws/devel/setup.bash" >> /root/.bashrc
 
 RUN echo "source /opt/ros/noetic/setup.bash" >> /root/.bashrc
